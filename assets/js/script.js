@@ -28,6 +28,11 @@ $(document).ready(function () {
         alert('¡Su mensaje fue enviado!');
     });
 
+    // tooltip indicando donde visitar la pagina en github pages
+    $('[data-toggle="tooltip"]').tooltip({
+        template: '<div class="tooltip custom-tooltip" role="tooltip"><div class="tooltip-arrow"></div><div class="tooltip-inner"></div></div>'
+      });
+    
 
 
 
