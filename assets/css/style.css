@@ -49,13 +49,23 @@ span {
     color: #FFFFFF !important;
 }
 
+.icon-link {
+    color: white; 
+    font-size: 24px; 
+    text-decoration: none;
+}
+
+
 
 @media (max-width: 576px) {
 
 
     .container {
         width: 90% !important;
-    } 
-
+    }
+    
+    .cards {
+        width: 60% !important;
+    }
 
 }
