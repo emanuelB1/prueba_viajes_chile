@@ -1,22 +1,61 @@
 body {
     font-family: "Roboto", sans-serif !important;
     color: #FFFFFF !important;
+    background-color: #000000 !important;
 }
 
 span {
     color: #FFFFFF !important;
 }
 
-#carouselExample {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: -1; 
-
-}
 
 .nav-link {
     color: #FFFFFF !important;
+    font-size: large !important;
 }
 
+
+.white-icon {
+    color: #ffffff;
+}
+
+.linea-redondeada1 {
+    border: none;
+    border-top: 2px solid #ffffff;
+    border-radius: 5px; 
+    width: 90%;
+    margin: 20px auto;
+}
+
+
+
+.card-title, .card-text {
+    color: #FFFFFF !important;
+}
+
+.linea-redondeada2 {
+    border: none;
+    border-top: 2px solid #ffffff;
+    border-radius: 5px; 
+    width: 100%;
+    margin: 20px auto;
+}
+
+.mayusculas {
+    text-transform: uppercase;
+}
+
+.btn-info {
+    color: #FFFFFF !important;
+}
+
+
+@media (max-width: 576px) {
+
+
+    .container {
+        width: 90% !important;
+    } 
+
+
+}
