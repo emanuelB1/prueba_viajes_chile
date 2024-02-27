@@ -64,7 +64,23 @@ span {
     background-color: #0dcaf0 !important; 
 }
 
+a:hover {
+    color: red; /* Cambia el color a rojo cuando el mouse está sobre el enlace */
+}
 
+.navbar-transparent {
+    background-color: transparent;
+    transition: background-color 0.3s ease-in-out; 
+}
+
+.navbar-colored {
+    background-color: #0dcaf0 !important; 
+}
+
+a:hover {
+    color: rgb(161, 80, 13) !important; 
+
+}
 
 @media (max-width: 576px) {
 
