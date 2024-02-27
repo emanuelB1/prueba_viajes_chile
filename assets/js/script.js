@@ -1,4 +1,6 @@
 $(document).ready(function(){
+
+    // funcion para smooth scroll
     $("a").on('click', function(event) {
       if (this.hash !== "") {
         event.preventDefault();
@@ -10,4 +12,15 @@ $(document).ready(function(){
         });
       } 
     });
+
+    // funcion para añadir color al navbar cuando se hace scroll
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 50) {
+            $('.navbar').addClass('navbar-colored');
+        } else {
+            $('.navbar').removeClass('navbar-colored');
+        }
+    });
+
+
   });

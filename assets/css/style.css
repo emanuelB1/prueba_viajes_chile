@@ -55,6 +55,15 @@ span {
     text-decoration: none;
 }
 
+.navbar-transparent {
+    background-color: transparent;
+    transition: background-color 0.3s ease-in-out; 
+}
+
+.navbar-colored {
+    background-color: #0dcaf0 !important; 
+}
+
 
 
 @media (max-width: 576px) {
