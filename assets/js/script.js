@@ -22,5 +22,13 @@ $(document).ready(function(){
         }
     });
 
+    // Mostrar una alerta con el mensaje
+    $('#enviarBtn').click(function() {
+            
+            alert('¡Su mensaje fue enviado!');
+    });
+    
+    
+
 
   });
